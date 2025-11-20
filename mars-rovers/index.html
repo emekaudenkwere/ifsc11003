@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="NASA Mars Rovers — Robotic Explorers on the Red Planet. Overview of Spirit, Curiosity, and Perseverance missions." />
+  <meta name="keywords" content="NASA,Mars,Rovers,Curiosity,Perseverance,Spirit,space,exploration" />
+  <meta name="robots" content="noindex">
+  <title>NASA Mars Rovers — Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="light" data-theme="light">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header role="banner" class="site-header">
+    <div class="brand">
+      <img src="images/nasa-logo.png" alt="NASA logo (official)" class="logo" />
+      <div>
+        <h1>NASA Mars Rovers</h1>
+        <p class="tagline">Robotic Explorers on the Red Planet</p>
+      </div>
+    </div>
+    <button id="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode">🌙</button>
+    <nav role="navigation" aria-label="Main navigation" class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mission-history.html">Mission History</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="https://images.nasa.gov" target="_blank" rel="noopener">NASA Images</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" role="main" class="container">
+    <section aria-labelledby="overview">
+      <h2 id="overview">Overview of the Mars Rover Program</h2>
+      <p>The Mars Rover Program uses robotic science laboratories — rovers — to study Mars' surface, geology, atmosphere, and habitability. This site highlights three notable rovers: <strong>Spirit</strong>, <strong>Curiosity</strong>, and <strong>Perseverance</strong>.</p>
+    </section>
+
+    <section aria-labelledby="rover-cards" class="rover-cards" role="region">
+      <h2 id="rover-cards">Featured Rovers</h2>
+
+      <article class="card" aria-labelledby="spirit-title">
+        <img src="images/spirit-lro.jpg" alt="Spirit rover on Martian surface with rocky terrain" />
+        <h3 id="spirit-title">Spirit (MER-A)</h3>
+        <p><strong>Mission goal:</strong> Search for signs of past water and characterize Martian geology.</p>
+        <p><a href="mission-history.html#spirit">Learn more →</a></p>
+      </article>
+
+      <article class="card" aria-labelledby="curiosity-title">
+        <img src="images/curiosity-selfie.jpg" alt="Curiosity rover selfie on Mars showing part of the rover body and horizon" />
+        <h3 id="curiosity-title">Curiosity (MSL)</h3>
+        <p><strong>Mission goal:</strong> Assess past and present habitability and study Martian climate and geology.</p>
+        <p><a href="mission-history.html#curiosity">Learn more →</a></p>
+      </article>
+
+      <article class="card" aria-labelledby="perseverance-title">
+        <img src="images/perseverance-mast.jpg" alt="Perseverance rover mast and sky in Jezero crater" />
+        <h3 id="perseverance-title">Perseverance (Mars 2020)</h3>
+        <p><strong>Mission goal:</strong> Seek signs of ancient life, collect and cache samples, and prepare for future human missions.</p>
+        <p><a href="mission-history.html#perseverance">Learn more →</a></p>
+      </article>
+
+    </section>
+
+    <section aria-labelledby="comparison">
+      <h2 id="comparison">Rover Comparison</h2>
+      <div class="table-wrap" role="table" aria-label="Comparison of rover specifications">
+        <table>
+          <caption>Key specifications: Spirit, Curiosity, Perseverance</caption>
+          <thead>
+            <tr>
+              <th>Spec</th><th>Spirit</th><th>Curiosity</th><th>Perseverance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Launch</th><td>2003</td><td>2011</td><td>2020</td></tr>
+            <tr><th scope="row">Landing</th><td>Gusev Crater, 2004</td><td>Gale Crater, 2012</td><td>Jezero Crater, 2021</td></tr>
+            <tr><th scope="row">Mass</th><td>185 kg</td><td>899 kg</td><td>1025 kg</td></tr>
+            <tr><th scope="row">Power</th><td>Solar panels</td><td>RTG (nuclear)</td><td>RTG (nuclear)</td></tr>
+            <tr><th scope="row">Primary goal</th><td>Geology & water history</td><td>Habitability & climate</td><td>Astrobiology & sample caching</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <p>This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing this work.</p>
+    <p>Contact: <a href="mailto:ejudenkwere@ualr.edu">Emeka Udenkwere</a></p>
+    <p><a href="https://www.jpl.nasa.gov" target="_blank" rel="noopener">NASA Jet Propulsion Laboratory</a></p>
+  </footer>
+
+  <script src="js/theme.js"></script>
+</body>
+</html>
